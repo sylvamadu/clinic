@@ -1,0 +1,8 @@
+arrow-right - <i class="fa fa-arrow-right"></i>
+menu - <i class="fa fa-bars" aria-hidden="true"></i>
+search - <i class="fa fa-search" aria-hidden="true"></i>
+arrow--norm right - <i class="fa fa-angle-right" aria-hidden="true"></i>
+arrow--norm down - <i class="fa fa-angle-down" aria-hidden="true"></i>
+bell -- <i class="fa fa-bell"></i>
+message - <i class="fa fa-envelope"></i>
+arrows - <i class="fa fa-arrows" aria-hidden="true"></i>

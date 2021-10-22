@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.shell{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    height: 90vh;
+}
+.left-side{
+    background-color: whitesmoke;
+    grid-column: 1 / span 2;
+    padding: 2em 1.3em 1em 1.3em;
+}
+.logo{
+    margin-top: 1em;
+    margin-bottom: 3em;
+    text-align: center;
+    font-weight: 400;
+}
+.fa-plus{
+    color: red;
+    margin-right: 1em;
+}
+.status{
+    text-transform: capitalize;
+    background-color: red;
+    color: white;
+    padding: 1em 2em;
+    margin-bottom: 2em;
+    border-top-right-radius: .4em;
+    border-bottom-right-radius: .4em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+.fa-arrow-right{
+    background-color: rgb(105, 8, 8);
+    border-radius: 50%;
+    margin-left: .6em;
+    padding: .3em;
+}
+.links{
+    margin-left: 2em;
+    margin-top: 3em;
+}
+.fa-angle-right{
+    position: absolute;
+    right: 3px;
+}
+.links > li{
+    list-style: none;
+    margin: 1.5em 0;
+    position: relative;
+}
+.links > li > a{
+    text-decoration: none;
+    color: black;
+}
+.links > li > ul{
+    background-color: rgb(214, 214, 214);
+    display: none;
+}
+.links > li > ul >li{
+    list-style: none;
+    margin: .3em 0;
+    padding: .3em 0;
+}
+.links > li >ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+.show{
+    display: block;
+}
+.right-side{
+    background-color: rgb(214, 214, 214);
+    grid-column: 3 / span 10;
+    padding: 1em;
+}
+.top{
+    height: 3em;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(20, 20, 20);
+    background-color: white;
+}
+.fa-bars{
+    padding: 0 2em;
+}
+.fa-bell,.fa-envelope,.fa-arrows{
+    padding: 0 .6em;
+}
+.fa-arrows{
+    transform: rotate(45deg);
+}
+.account{
+    position: relative;
+}
+.account > span > .fa-angle-right{
+    position: absolute;
+    right: -1em;
+}
+.responsive-img{
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    margin: 0 .6em;
+}
+.input-group{
+    width: 65%;
+    border-left: 1px solid rgb(20, 20, 20);
+    border-right: 1px solid rgb(20, 20, 20);
+    position: relative;
+}
+.input{
+    width: 100%;
+    padding: 1em 0;
+    padding-left: 2em !important;
+}
+.fa-search{
+    position: absolute;
+    left: 5px;
+    top: 13px;
+    margin-right: 2em;
+    color: grey;
+}
+.main-page{
+    margin-top: 1em;
+    display: flex;
+}
+.left-section{
+    background-color: white;
+    margin-right: 1em;
+    width: 25%;
+    padding: 3em 0;
+    text-align: center;
+    border-radius: .5em;
+}
+.img{
+    width: 75%;
+}
+.caption{
+    color: red;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    font-weight: 400;
+}
+.left-table{
+    margin-top: 1em!important;
+    padding: 1em 0;
+    margin: 0 1.5em;
+}
+.btn-info{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: .8em;
+}
+.row-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: left;
+    padding: .5em 0;
+}
+.row-info > p:first-of-type{
+    grid-column: 1/ 2;
+}
+.row-info:nth-last-of-type(odd){
+    background-color: rgb(214, 214, 214);
+}
+
+.change-pass{
+    border: none;
+    color: white;
+    background-color: red;
+    padding: .6em .8em;
+    text-align: center;
+    border-radius: .5em;
+    margin-right: 1.5em;
+}
+.edit
+{
+    border: 1px solid black;
+    padding: .6em .8em;
+    text-align: center;
+    border-radius: .5em;
+}
+
+/*main right section*/
+.right-section{
+    width: 74%;
+    background-color: white;
+    border-radius: .5em;
+    padding: .7em;
+}
+.right-section h2{
+    padding: .4em 0;
+    border-bottom: 1px solid grey;
+}
+.button-section{
+    margin: .6em 0;
+    border-bottom: 1px solid grey;
+}
+.btn-tag{
+    margin-bottom: .6em;
+    border: none;
+    color: black;
+    background-color: rgb(214, 214, 214);
+    padding: .8em 1.2em;
+    text-align: center;
+    border-radius: 2em;
+}
+.active{
+    background-color: red;
+    color: white;
+}
+.form-table{
+    padding: 1.5em;
+    margin: 1em 0;
+}
+.right-table{
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: .3em 0;
+    margin: .2em 0;
+}
+.row:nth-last-of-type(odd){
+    background-color: rgb(214, 214, 214);
+}
+/*footer*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2em;
+    padding-top: 1em;
+    margin-top: 1em !important;
+}
+.right-info > ul{
+    display: flex;
+}
+.right-info > ul > li{
+    list-style: none;
+    padding: 0 1em;
+}

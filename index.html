@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <div class="shell">
+       <div class="left-side">
+            <div class="logo">
+                <h3><span><i class="fa fa-plus" aria-hidden="true"></i></span>Clinique Plus</h3>
+            </div>
+            <p class="status">bed status <span><i class="fa fa-arrow-right"></i></span></p>
+            <ul class="links">
+                <li><a href="">Front Office</a><span><i class="fa fa-angle-right" aria-hidden="true"></i></span></li>
+                <li><a href="">HIS</a><span><i class="fa fa-angle-right" aria-hidden="true"></i></span></li>
+                <li><a href="">Blood Bank</a></li>
+                <li id="arrowBtn" onclick="openContent()"><a href="">LIS</a><span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                    <ul id="content" class="inner-dropdown">
+                        <li><a href="">Order</a></li>
+                        <li><a href="">QC</a></li>
+                        <li><a href="">Phleb</a></li>
+                        <li><a href="">Analysers</a></li>
+                    </ul>
+                </li>
+                <li><a href="">RIS</a></li>
+                <li><a href="">Insurance</a></li>
+            </ul>
+       </div>
+       <div class="right-side">
+            <div class="top">  
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                <div class="input-group">
+                    <input type="text" placeholder="Search for patient" class="input"/>
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+                <i class="fa fa-bell"></i>
+                <i class="fa fa-envelope"></i>
+                <i class="fa fa-arrows" aria-hidden="true"></i>
+                <img src="./img/passport.jpg" alt="passport" class="responsive-img">
+                <p class="account">
+                    Samson Monday <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                </p> 
+            </div><!--top ends-->
+            <div class="main-page">
+                <div class="left-section">
+                    <div class="card-img">
+                        <img src="./img//passport.jpg" alt="face" class="img">
+                        <p class="caption">Isaac Isaac</p>
+                    </div>
+                    <div class="left-table">
+                        <div class="btn-info">
+                           <button class="change-pass">Change Password</button>
+                            <button class="edit">Edit</button>
+                        </div>
+                        <div class="row-info">
+                            <p>Staff ID</p>
+                            <p>staff001w222</p>
+                        </div>
+                        <div class="row-info">
+                            <p>Role</p>
+                            <p>Admin</p>
+                        </div>
+                        <div class="row-info">
+                            <p>Designation</p>
+                            <p>CMD</p>
+                        </div>
+                        <div class="row-info">
+                            <p>Department</p>
+                            <p>4</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="right-section">
+                    <h2>HR/Staff</h2>
+                    <div class="button-section">
+                        <button class="btn-tag active">Profile</button>
+                        <button class="btn-tag">Payroll</button>
+                        <button class="btn-tag">Leaves</button>
+                        <button class="btn-tag">Attendance</button>
+                        <button class="btn-tag">Documents</button>
+                        <button class="btn-tag">Timeline</button>
+                    </div>
+                    <div class="form-table">
+                        <div  class="right-table">
+                            <div class="row">
+                                <p>Phone</p>
+                                <p>0903452672</p>
+                            </div>
+                            <div class="row">
+                                <p>Emergency Contact</p>
+                                <p>121212</p>
+                            </div>
+                            <div class="row">
+                                <p>Email</p>
+                                <p>IsaacOsario@gmail.com</p>
+                            </div>
+                            <div class="row">
+                                <p>Date 0f Birth</p>
+                                <p>2021-07-06</p>
+                            </div>
+                            <div class="row">
+                                <p>Specialty</p>
+                                <p>1</p>
+                            </div>
+                            <div class="row">
+                                <p>Father Name</p>
+                                <p>Edwin Isaac</p>
+                            </div>
+                            <div class="row">
+                                <p>Mother Maiden Name</p>
+                                <p>Loveth Ndukuba</p>
+                            </div>
+                            <div class="row">
+                                <p>Highest Qualification</p>
+                                <p>B.Eng</p>
+                            </div>
+                            <div class="row">
+                                <p>Qualification Date</p>
+                                <p>2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--ends main page-->
+       </div>
+   </div>
+   <footer>
+       <div class="left-info">
+           <p>CliniquePlus EMR by Netwalkers NG &copy; 2021. All rights reserved.</p>
+       </div>
+       <div class="right-info">
+           <ul>
+               <li>About Us</li>
+               <li>Contact Us</li>
+               <li>Terms Of Service</li>
+               <li>Privacy Policy</li>
+           </ul>
+       </div>
+   </footer>
+
+   <script src="app.js"></script>
+</body>
+</html>
